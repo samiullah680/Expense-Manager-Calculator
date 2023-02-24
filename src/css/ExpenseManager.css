@@ -1,0 +1,191 @@
+body{
+    background-color: whitesmoke;
+}
+.main{
+    width: 70%;
+    margin: auto;
+    border: 2px solid rgb(61, 17, 1);
+
+    background: radial-gradient(circle, rgb(189, 255, 180) 0%, rgb(135, 101, 179) 100%);
+
+
+    margin-top: 15px;
+    border-radius: 10PX;
+}
+#heading{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+}
+.container-1{
+    border: 2px solid rgb(61, 17, 17);
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px;
+
+}
+.container-2{
+    border: 2px solid rgb(61, 17, 17);
+  
+    margin: 5px;
+    padding: 5px;
+    width: 50%;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#btn-div{
+    text-align: center;
+}
+#btn{
+    width: 40%;
+    margin: 20px 0px;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: rgb(105, 155, 141);
+    border: 2px solid rebeccapurple;
+    font-size: 35px;
+    color:rgb(9, 19, 165);
+    font-weight: bold;
+}
+#new-item,#amount{
+    margin-left: 20px;
+    margin: 10px;
+}
+input{
+    width: 80%;
+    height: 4.6vh;
+    border-radius: 8px;
+    background-color: rgb(168, 255, 255);
+    font-size: 25px;
+    padding: 5px;
+}
+#prices{
+    color: rgb(224, 0, 0);
+    font-size: 29px;
+    font-weight: bold;
+}
+
+#date{
+    width: 25%;
+    background-color: rgb(217, 201, 243);
+    height: 4.6vh;
+   /* float: right; */
+   margin-left: 30px;
+
+
+}
+#select{
+    width: 26%;
+    background-color: rgb(146, 233, 233);
+    margin: 10px;
+    height: 4.6vh;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+}
+/* .ed{
+    float: right;
+    margin: 6px;
+} */
+
+#disp{
+    border: 2px solid rgb(10, 5, 43);
+    margin: 5px;
+    width: 96%;
+    margin: auto;
+    /* height: 9vh; */
+    display: flex;
+    justify-content:space-around;
+    border-radius: 15px;
+}
+#disp>div{
+    margin: 5px;
+}
+
+#add_income{
+    width: 15%;
+    height: 5.2vh;
+    background-color:rgb(238, 238, 238);
+    margin-top: 3px;
+   
+}
+#add_btn{
+    width: 180px;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: rgb(2, 1, 1);
+   /* color: rgb(2, 37, 233); */
+   color: white;
+   margin-left: 20px;
+   margin-top: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 5px;
+}
+
+#lb-1{
+    font-size: 26px;
+    font-weight: bold;
+}
+option{
+    font-size: 23px;
+}
+
+
+#edit{
+    width: 100px;
+    height: 6vh;
+    margin: 4px;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-top: 10px;
+    background-color: rgb(137, 199, 31);
+}
+#delete{
+
+    width: 100px;
+    height: 6vh;
+    margin: 4px;
+    font-size: 22px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(214, 40, 40);
+
+}
+
+
+
+
+
+@media only screen and (max-width:1040px){
+  #add_income{
+    width: 25%;
+  }
+  #add_btn{
+    width: 120px;
+    font-size: 15px;
+
+  }
+  #lb-1{
+    font-size: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1{
+    width: 95%;
+    height: 40vh;
+  }
+  .container-2{
+    height: 37vh;
+    margin: auto;
+  }
+}
+
